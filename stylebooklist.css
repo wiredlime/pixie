@@ -1,12 +1,13 @@
 .navbar {
   font-family: "Courier New", Courier, monospace;
+  width: 100%;
 }
 
 .container {
   display: grid;
   grid-template-columns: 100%;
-  margin: 40px;
-  padding: 0px;
+  /* margin: 40px; */
+  padding: 30px;
 }
 
 body,
@@ -44,8 +45,8 @@ html {
 
 .card-container {
   margin: 25px auto 0;
-  position: relative;
-  width: 600px;
+  position: static;
+  width: 100%;
 }
 
 .card {
